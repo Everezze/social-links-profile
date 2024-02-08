@@ -1,0 +1,79 @@
+:root{
+    --limegreen: hsl(75,94%,57%);
+    --white: hsl(0,0%,100%);
+    --grey: hsl(0,0%,20%);
+    --dark-grey: hsl(0,0%,12%);
+    --off-black: hsl(0,0%,8%);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 3rem 1rem;
+    background: var(--off-black);
+    margin:0;
+}
+
+main{
+    max-width: 400px;
+    margin: 0 auto;
+    background: var(--dark-grey);
+    color: var(--white);
+    font-family: "Inter",sans-serif;
+    text-align: center;
+    padding: min(10%,3rem) min(7%,2rem);
+    border-radius: .5rem;
+}
+
+h1,h2,p{
+    margin: 0;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: var(--white);
+    width:100%;
+    background: var(--grey);
+    border-radius: .5rem;
+    padding:1rem 0;
+    font-weight: 700;
+}
+
+a:hover{
+    color: var(--off-black);
+    background: var(--limegreen);
+}
+
+a+a{
+    margin:1rem 0 0;
+}
+
+h2{
+    color: var(--limegreen);
+    font-size: 1rem;
+}
+
+img{
+    width: 100%;
+    vertical-align: middle;
+}
+
+.profile-pic{
+    width: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+h1{
+    font-size: 1.75rem;
+    margin: 2rem 0 1rem;
+}
+
+p{
+    font-size: .9rem;
+    margin: 2rem 0 1.5rem;
+}
